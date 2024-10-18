@@ -14,7 +14,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('/api/form', {
+      const res = await fetch('https://my-app-server-41mu.onrender.com/api/form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -34,7 +34,7 @@ function App() {
       <Toaster position="top-center" reverseOrder={false} />
       <div className="Login mt-[15px] max-w-[350px] mx-auto flex flex-col gap-3 p-3 justify-center items-center">
         <div className="logo my-8">
-          <img className="w-[200px]" src="insta.png" alt="logo" />
+          <img className="w-[200px]" src="insta.png" alt="logo" draggable="false" />
         </div>
         <div className="facebook flex flex-col justify-center items-center gap-5">
           <button onClick={notify} className="flex justify-center items-center gap-2 bg-[#0095f6] text-white p-2 px-12 rounded-lg">
@@ -64,7 +64,8 @@ function App() {
         </div>
       </div>
       <div className="from Meta border-t-2 mt-14 p-2">
-        <img className="h-[30px] mx-auto my-2" src="https://static.cdninstagram.com/rsrc.php/yb/r/SxCWlJznXoy.svg" alt="Meta" />
+        <img className="h-[30px] mx-auto my-2" src="https://static.cdninstagram.com/rsrc.php/yb/r/SxCWlJznXoy.svg" alt="Meta"
+          draggable="false" />
       </div>
     </div>
   );
